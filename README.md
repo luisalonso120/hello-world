@@ -1,2 +1,1 @@
-# hello-world
-first repository
+Triying to build something nice with github! : )
