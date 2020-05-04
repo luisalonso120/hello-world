@@ -3,6 +3,24 @@ body{
 
 
 }
-.h1{
+h1{
   font-weight: 900;
+}
+
+
+/* Clean accordion*/
+
+.btn{
+  padding: 0rem;
+}
+.card{
+  border:0px;
+}
+.card-header{
+  padding: 1rem 0rem;
+  border-bottom: 0px;
+  /*background-color: #ffffff;*/
+}
+.card-body{
+  padding: 0px;
 }
