@@ -24,3 +24,13 @@ h1{
 .card-body{
   padding: 0px;
 }
+
+
+/* Resize images in carousel */
+
+
+@media (min-width: 992px) {
+  .carousel-inner{
+    padding: 0rem 14rem 0rem 14rem;
+  }
+}
