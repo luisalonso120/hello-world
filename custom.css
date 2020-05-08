@@ -9,7 +9,7 @@ h1, h2{
   font-weight: 900;
 
 }
-h2 .btn{
+h2 .btn, a{
   color:#168da6;
 }
 h3{
