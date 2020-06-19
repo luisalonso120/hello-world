@@ -72,3 +72,16 @@ h6, strong{
 
 
 /* Changes Carousel END */
+
+/* Desktop
+
+@media (min-width: 1200px) {
+  .carousel-inner{
+    width: 200%;
+    margin-left: -50%;
+  }
+ }
+
+
+
+ Desktop END */
