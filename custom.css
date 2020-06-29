@@ -92,5 +92,14 @@ h6, strong{
 
 
 
+/* SAFARI ONLY svg size */
+
+  .section_1 #hello:not(:root:root){
+    width: 50% !important;
+}
+
+/* SAFARI ONLY svg size END */
+
+
 
  /*Desktop END */
