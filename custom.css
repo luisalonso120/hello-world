@@ -5,8 +5,8 @@ body{
 
 }
 h1, h2{
-  font-family: 'IBM Plex Serif', serif;
-  font-weight: light;
+  font-family: 'Vollkorn', serif;
+  font-weight: 800;
 
 }
 h2 .btn, a{
@@ -14,11 +14,12 @@ h2 .btn, a{
 }
 h3{
   font-family:  'Lato', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
+  line-height: 2.2rem;
 }
 
 h6, strong{
-  font-weight: normal;
+  font-weight: bold;
 }
 
 
