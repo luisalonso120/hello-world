@@ -48,12 +48,14 @@ h6, strong{
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
   }
 
+/*
   .carousel-caption {
     text-shadow: none;
     top: 550px;
     color:#818a91;
     font-size: 14.4px;
   }
+*/
 
   /* Changes Carousel END */
 
@@ -93,6 +95,7 @@ h6, strong{
 
 @media (max-width: 375px) {
 
+/*   INDEX   */
 
   .tears_dw{
     display: none;
@@ -107,22 +110,54 @@ h6, strong{
   }
 
 
-#about_img{
+  #about_img{
     width:100%;
     margin:0px 0px 50px 0px;
-}
+  }
 
-.section_2_mobile {
+  .section_2_mobile {
     margin: 0px 0px 100px 0px;
-}
+  }
 
-#car{
-  margin: 5%;
-}
+  #car{
+    margin: 5%;
+  }
 
-.section_4{
-  margin: 100px 0px 100px 0px;
-}
+  .section_4{
+    margin: 100px 0px 100px 0px;
+  }
+  /*   INDEX END  */
+
+
+  /*   PROJECTS */
+
+  /*   Abstract Layers */
+
+  #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel{
+    width: 100%;
+  }
+
+  /*   Food art and ads  */
+
+  #burgy,#bike,#love_gif,#pizza_friends{
+    width: 100%;
+  }
+
+  /*   Spot illustrations  */
+
+
+  #minis_sketches,#final_spot_illustrations,#devices_web{
+    width: 100%;
+  }
+  .carousel-caption {
+    text-shadow: none;
+    color:#818a91;
+    font-size: 14.4px;
+    top: 300px;
+  }
+
+
+
 
  }
 
@@ -132,6 +167,7 @@ h6, strong{
      display: none;
    }
   }
+
 
 
 
