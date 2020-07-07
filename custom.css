@@ -93,15 +93,36 @@ h6, strong{
 
 @media (max-width: 375px) {
 
-  .section_1{
-    display: none;
-  }
 
   .tears_dw{
     display: none;
   }
 
+  #hello{
+    margin: 10%;
+  }
 
+  header{
+    margin:50px 0px 100px 0px;
+  }
+
+
+#about_img{
+    width:100%;
+    margin:0px 0px 50px 0px;
+}
+
+.section_2_mobile {
+    margin: 0px 0px 100px 0px;
+}
+
+#car{
+  margin: 5%;
+}
+
+.section_4{
+  margin: 100px 0px 100px 0px;
+}
 
  }
 
