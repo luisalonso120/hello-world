@@ -1,3 +1,5 @@
+
+
 body{
   font-family:  'Lato', sans-serif;
   font-weight: 300;
@@ -23,85 +25,47 @@ h6, strong{
 }
 
 
-/* Changes Buttons */
+
+/*      ++++++++    Desktop    +++++++++++++++*/
 
 
 
-
-/* Changes Buttons END */
-
-
-/* Clean accordion
-
-.btn{
-  padding: 0rem;
-}
-.card{
-  border:0px;
-}
-.card-header{
-  padding: 1rem 0rem;
-  border-bottom: 0px;
-  background-color: #ffffff;
-}
-.card-body{
-  padding: 0px;
-}
-
-/* Clean accordion  END */
-
-/* Changes Carousel */
+  /* Changes Carousel */
 
 
 
   .carousel-inner{
-    padding: 2rem 0rem 4rem 0rem;
+      padding: 2rem 0rem 4rem 0rem;
+    }
+
+
+
+  .carousel-control-next-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
   }
 
-
-
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-caption {
-  text-shadow: none;
-  top: 550px;
-  color:#818a91;
-  font-size: 14.4px;
-}
-
-
-
-
-
-
-/*
-
-@media (min-width: 375px) {
-  .carousel-inner{
-    width: 200%;
-    margin-left: -50%;
+  .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
   }
- }
 
-
-
-/* Changes Carousel END */
-
-/* Desktop
-
-@media (min-width: 1200px) {
-  .carousel-inner{
-    width: 200%;
-    margin-left: -50%;
+  .carousel-caption {
+    text-shadow: none;
+    top: 550px;
+    color:#818a91;
+    font-size: 14.4px;
   }
- }
-*/
+
+  /* Changes Carousel END */
+
+
+
+
+
+
+
+
+
+
 
 #spam img{
   border: 1px solid lightgray;
@@ -119,5 +83,54 @@ h6, strong{
 /* SAFARI ONLY svg size END */
 
 
+/*      ++++++++    Desktop END    +++++++++++++++*/
 
- /*Desktop END */
+
+/*      ++++++++    Mobile    +++++++++++++++*/
+
+
+
+
+@media (max-width: 375px) {
+
+  .section_1{
+    display: none;
+  }
+
+  .tears_dw{
+    display: none;
+  }
+
+
+
+ }
+
+
+ @media (min-width: 1200px) {
+   .tears_mw{
+     display: none;
+   }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      ++++++++    Mobile END    +++++++++++++++*/
