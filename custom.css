@@ -126,29 +126,29 @@ h6, strong{
   .section_4{
     margin: 100px 0px 100px 0px;
   }
+
+
+
+  .col-6{
+    display: none;
+  }
+
+
+
   /*   INDEX END  */
 
 
   /*   PROJECTS */
 
-  /*   Abstract Layers */
+  /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
 
-  #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel{
+  #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
     width: 100%;
   }
 
-  /*   Food art and ads  */
-
-  #burgy,#bike,#love_gif,#pizza_friends{
-    width: 100%;
-  }
 
   /*   Spot illustrations  */
 
-
-  #minis_sketches,#final_spot_illustrations,#devices_web{
-    width: 100%;
-  }
   .carousel-caption {
     text-shadow: none;
     color:#818a91;
@@ -162,11 +162,51 @@ h6, strong{
  }
 
 
+ @media (max-width: 1200px) {
+
+   /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
+
+   #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
+     width: 100%;
+   }
+
+   .col-6{
+     display: none;
+   }
+
+
+
+  }
+
+
+
+
  @media (min-width: 1200px) {
    .tears_mw{
      display: none;
    }
-  }
+
+
+   .col-sm{
+     display: none;
+   }
+
+   /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
+
+   #plane_gif, #device_final_carousel, #all_final_gif,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
+     width: 60%;
+   }
+
+   #old_carousel{
+     width: 100%;
+   }
+
+
+
+   }
+
+
+
 
 
 
