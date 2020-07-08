@@ -1,5 +1,5 @@
 
-
+/*       FONTS    */
 body{
   font-family:  'Lato', sans-serif;
   font-weight: 300;
@@ -24,9 +24,7 @@ h6, strong{
   font-weight: bold;
 }
 
-
-
-/*      ++++++++    Desktop    +++++++++++++++*/
+/*     FONTS  END    */
 
 
 
@@ -48,23 +46,15 @@ h6, strong{
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
   }
 
-/*
+
   .carousel-caption {
     text-shadow: none;
-    top: 550px;
     color:#818a91;
-    font-size: 14.4px;
+    top:90%;
+    font-size: 90%;
   }
-*/
 
   /* Changes Carousel END */
-
-
-
-
-
-
-
 
 
 
@@ -85,149 +75,106 @@ h6, strong{
 /* SAFARI ONLY svg size END */
 
 
-/*      ++++++++    Desktop END    +++++++++++++++*/
+
+/*           RESPONSIVE       */
 
 
-/*      ++++++++    Mobile    +++++++++++++++*/
+@media only screen and (max-width: 600px) {
+
+  /*   INDEX   */
+
+    .tears_dw{
+      display: none;
+    }
+
+    #hello{
+      margin: 10%;
+    }
+
+    header{
+      margin:50px 0px 100px 0px;
+    }
+
+
+    #about_img{
+      width:100%;
+      margin:0px 0px 50px 0px;
+    }
+
+    .section_2_mobile {
+      margin: 0px 0px 100px 0px;
+    }
+
+    #car{
+      margin: 5%;
+    }
+
+    .section_4{
+      margin: 100px 0px 100px 0px;
+    }
+
+    .section_1, .section_2, .section_3{
+      display: none;
+    }
 
 
 
+    /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
 
-@media (max-width: 375px) {
+    #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
+      width: 100%;
+    }
 
-/*   INDEX   */
 
-  .tears_dw{
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+
+
+  .section_1_mobile, .section_2_mobile, .section_3_mobile{
     display: none;
   }
 
-  #hello{
-    margin: 10%;
-  }
-
-  header{
-    margin:50px 0px 100px 0px;
-  }
-
-
-  #about_img{
-    width:100%;
-    margin:0px 0px 50px 0px;
-  }
-
-  .section_2_mobile {
-    margin: 0px 0px 100px 0px;
-  }
-
-  #car{
-    margin: 5%;
-  }
-
-  .section_4{
-    margin: 100px 0px 100px 0px;
-  }
-
-
-
-  .col-6{
+  .tears_mw{
     display: none;
   }
 
+}
 
 
-  /*   INDEX END  */
 
+@media only screen and (min-width: 1200px) {
 
-  /*   PROJECTS */
+  .tears_mw{
+    display: none;
+  }
+
+#carouselExampleControls, #map_levels{
+  width: 50%;
+  margin: auto;
+}
+
+.col-sm{
+
+}
+
 
   /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
 
-  #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
+  #plane_gif, #device_final_carousel, #all_final_gif,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
+    width: 60%;
+  }
+
+  #old_carousel{
     width: 100%;
   }
 
-
-  /*   Spot illustrations  */
-
-  .carousel-caption {
-    text-shadow: none;
-    color:#818a91;
-    font-size: 14.4px;
-    top: 300px;
+  .section_1_mobile, .section_2_mobile, .section_3_mobile{
+    display: none;
   }
 
 
 
-
- }
-
-
- @media (max-width: 1200px) {
-
-   /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
-
-   #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
-     width: 100%;
-   }
-
-   .col-6{
-     display: none;
-   }
-
-
-
-  }
-
-
-
-
- @media (min-width: 1200px) {
-   .tears_mw{
-     display: none;
-   }
-
-
-   .col-sm{
-     display: none;
-   }
-
-   /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
-
-   #plane_gif, #device_final_carousel, #all_final_gif,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
-     width: 60%;
-   }
-
-   #old_carousel{
-     width: 100%;
-   }
-
-
-
-   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*      ++++++++    Mobile END    +++++++++++++++*/
+}
