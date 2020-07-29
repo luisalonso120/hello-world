@@ -1,9 +1,11 @@
 
 /*       FONTS    */
+
+
+
 body{
   font-family:  'Lato', sans-serif;
   font-weight: 300;
-
 
 }
 h1, h2{
@@ -14,6 +16,7 @@ h1, h2{
 h2 .btn, a{
   color:#168da6;
 }
+
 h3{
   font-family:  'Lato', sans-serif;
   font-weight: 100;
@@ -24,19 +27,19 @@ h6, strong{
   font-weight: bold;
 }
 
+
+
 /*     FONTS  END    */
 
 
 
-  /* Changes Carousel */
+/* Changes Carousel */
 
 
 
   .carousel-inner{
       padding: 2rem 0rem 4rem 0rem;
     }
-
-
 
   .carousel-control-next-icon {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
@@ -46,7 +49,6 @@ h6, strong{
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='grey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
   }
 
-
   .carousel-caption {
     text-shadow: none;
     color:#818a91;
@@ -54,8 +56,9 @@ h6, strong{
     font-size: 90%;
   }
 
-  /* Changes Carousel END */
 
+
+/* Changes Carousel END */
 
 
 
@@ -66,11 +69,42 @@ h6, strong{
 
 
 
+/* SAFARI ONLY imgs size */
+
+
+
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        #spam img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm)and (max-width: 600px) {
+    #spam img {
+        width: 100%;
+
+    }
+}
+
+
+
+/* SAFARI ONLY imgs size */
+
+
+
 /* SAFARI ONLY svg size */
+
+
 
   .section_1 #hello:not(:root:root){
     width: 50% !important;
 }
+
+
 
 /* SAFARI ONLY svg size END */
 
@@ -79,9 +113,8 @@ h6, strong{
 /*           RESPONSIVE       */
 
 
-@media only screen and (max-width: 600px) {
 
-  /*   INDEX   */
+@media only screen and (max-width: 600px) {
 
     .tears_dw{
       display: none;
@@ -94,7 +127,6 @@ h6, strong{
     header{
       margin:50px 0px 100px 0px;
     }
-
 
     #about_img{
       width:100%;
@@ -117,21 +149,20 @@ h6, strong{
       display: none;
     }
 
-
+    #back_btn{
+      margin-left: 0% !important;
+    }
 
     /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
 
     #plane_gif, #device_final_carousel, #all_final_gif, #old_carousel,#burgy,#bike,#love_gif,#pizza_friends,#minis_sketches,#final_spot_illustrations,#devices_web{
       width: 100%;
     }
-
-
-
 }
 
 
-@media screen and (max-width: 1200px) and (min-width: 600px) {
 
+@media screen and (max-width: 1200px) and (min-width: 600px) {
 
   .section_1_mobile, .section_2_mobile, .section_3_mobile{
     display: none;
@@ -140,7 +171,6 @@ h6, strong{
   .tears_mw{
     display: none;
   }
-
 }
 
 
@@ -151,15 +181,10 @@ h6, strong{
     display: none;
   }
 
-#carouselExampleControls, #map_levels{
-  width: 50%;
-  margin: auto;
-}
-
-.col-sm{
-
-}
-
+  #carouselExampleControls, #map_levels{
+    width: 50%;
+    margin: auto;
+  }
 
   /*   Abstract Layers ---- Food art and ads ---- Spot illustrations ---     */
 
@@ -174,7 +199,4 @@ h6, strong{
   .section_1_mobile, .section_2_mobile, .section_3_mobile{
     display: none;
   }
-
-
-
 }
